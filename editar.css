@@ -1,0 +1,116 @@
+@font-face {
+    font-family:"Titulo1" ;
+    src: url('fuentes/Resident\ Evil\ Large.ttf');
+    
+}
+@font-face {
+    font-family: "Titulo2";
+    src: url(fuentes/FantasticRock-rg1VK.ttf);
+}
+@font-face {
+    font-family: "Titulo3";
+    src: url(fuentes/Fragone-lgaJy.ttf);
+}
+body{
+    background-image: url('imagenes/portada\ 2.png') ;
+    background-position: fill;
+   
+}
+header{
+    
+    margin-top: -70px;
+    background: #000000;
+    color:#ffffff ;
+    text-align: center;
+    border: 1px solid #000000 ;
+    font-family: "Titulo3";
+    align-items: center; 
+    height: 68px;
+
+    
+}
+
+body {
+    margin-top: 60px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px;
+   
+}
+
+.subtitulo{
+    
+        margin-top: 0;
+        color:#ffffff ;
+        font-family: "Titulo2";
+
+}
+
+.informacion{
+    color:#ffffff ;
+    font-family: "Titulo2";
+}
+.listas {
+    list-style-type: none; 
+    padding: 0; 
+}
+.listas li {
+    background: rgba(255, 255, 255, 0.1); 
+    margin: 15px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color:#ffffff ;
+    font-family: "Titulo2";
+}
+
+
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info-section {
+        width: 30%;
+    }
+    
+}
+
+.gallery-link-container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-link {
+    font-family: "Titulo2";
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(175, 8, 8);
+    text-decoration: none;
+    border: 2px solid rgb(175, 8, 9);
+    border-radius: 10px;
+    font-size: 18px;
+   
+}
+
+
+
+
+
+

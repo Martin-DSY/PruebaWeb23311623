@@ -1,0 +1,87 @@
+@font-face {
+    font-family:"Titulo1" ;
+    src: url('fuentes/Resident\ Evil\ Large.ttf');
+    
+}
+@font-face {
+    font-family: "Titulo2";
+    src: url(fuentes/FantasticRock-rg1VK.ttf);
+}
+@font-face {
+    font-family: "Titulo3";
+    src: url(fuentes/Fragone-lgaJy.ttf);
+}
+body{
+    background-image: url('imagenes/portada\ 2.png') ;
+    background-position: fill;
+   
+}
+
+body {
+    background-image: url('imagenes/portada\ 2.png') ;
+    background-position: fill;
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header{
+    
+    margin-top: -10px;
+    background: #000000;
+    color:#ffffff ;
+    text-align: center;
+    border: 1px solid #000000 ;
+    font-family: "Titulo3";
+    align-items: center;
+    height: 68px;
+
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.gallery-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33% - 40px); /* Ajusta el tamaño de cada elemento de la galería */
+    box-sizing: border-box;
+    
+    
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.gallery-item p {
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.descripcion{
+    color:#ffffff ;
+    font-family: "Titulo2";
+}
+
+.practica1 {
+    font-family: "Titulo2";
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(175, 8, 8);
+    text-decoration: none;
+    border: 2px solid rgb(175, 8, 9);
+    border-radius: 10px;
+    font-size: 18px;
+   
+}
